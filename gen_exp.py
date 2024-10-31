@@ -18,5 +18,3 @@ if __name__ == '__main__':
 
     incre_stim, incre_lr, _ = os_exp.gen_episode(target=0) # incremental case
     oneshot_stim, oneshot_lr, _ = os_exp.gen_episode(target=1)  # one-shot case
-
-    print("ss")
